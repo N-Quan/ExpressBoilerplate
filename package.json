@@ -1,0 +1,21 @@
+{
+  "name": "expressboilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate code for express backend with firestore db",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node src/app.js",
+    "dev": "nodemon -r dotenv/config src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "firebase-admin": "^12.6.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7"
+  }
+}
